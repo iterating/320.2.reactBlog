@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "../App.css"
 
 function Article({ date, title, imageUrl, content }) {
   return (
@@ -8,9 +8,11 @@ function Article({ date, title, imageUrl, content }) {
       <h3>{title}</h3>
       <img src={imageUrl} alt={title} className="article-image" />
       <p>{content}</p>
-      <a href="#" className="read-more">Continues ...</a>
+      <a href="#" className="read-more">
+        Continues ...
+      </a>
     </article>
-  );
+  )
 }
 
-export default Article;
+export default Article

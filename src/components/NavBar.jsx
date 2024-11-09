@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "../App.css"
 
 function NavBar() {
   return (
@@ -11,7 +11,7 @@ function NavBar() {
       <a href="#">AdWatch</a>
       <a href="#">About</a>
     </nav>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBar

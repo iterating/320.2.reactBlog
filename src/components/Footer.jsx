@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "../App.css"
 
 function Footer() {
   return (
@@ -16,7 +16,7 @@ function Footer() {
       </nav>
       <p>© 2013 Valet Industries, Inc</p>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
